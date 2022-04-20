@@ -66,6 +66,32 @@
     color: white;
 }
 
+ul, ol {
+                list-style:none;
+            }
+
+            .menu li a:hover {
+                background-color:#434343;
+            }
+            
+            .menu li ul {
+                display:none;
+                min-width:140px;
+            }
+            
+            .menu li:hover > ul {
+                display:block;
+            }
+            
+            .menu li ul li {
+                position:relative;
+            }
+            
+            .menu li ul li ul {
+                right:-140px;
+                top:0px;
+            }
+
 
 
 
