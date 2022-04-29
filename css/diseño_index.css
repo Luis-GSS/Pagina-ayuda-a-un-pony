@@ -37,14 +37,13 @@
 }
 
 .menu {
-    z-index: ;
     list-style-type: none;
     margin-top: 3px;
     margin-left: 5px;
     padding: 0;
     background-color: #f1f1f1;
     position: fixed;
-    height: auto;
+    height: 100%;
     overflow: auto;
 }
 
@@ -134,7 +133,7 @@ color: #fff;
 
   ul li ul li ul{
         position: absolute;
-        left: 50;  / * Por qué usar 121px en lugar de 101px aquí * /
+        left: 50;
         top: 0px;
         display: none;
         z-index: 1;
