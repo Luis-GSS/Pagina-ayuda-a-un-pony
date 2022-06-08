@@ -51,13 +51,13 @@
 .container{
   width: 600px;
   height: auto;
+  margin-top: 240px;
   text-align: center;
   border-radius: 3px;
 }
 
 .container h2{
-  text-align: left;
-  padding: 10px;
+  text-align: center;
   font-size: 16px;
   letter-spacing: 3px;
 }
@@ -87,7 +87,7 @@
 .container ul li a:hover{
   background-color: #555;
   color: white;
-  transform: scale(1.1);
+  transform: scale(1.3);
 }
 
 
