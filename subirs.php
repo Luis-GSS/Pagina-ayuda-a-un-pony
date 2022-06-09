@@ -10,16 +10,14 @@
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"> </script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
   <script src="js/sidemenu.js" defer> </script>
-</head>  
+</head>
 
 
-    
+
   <body>
-   
-   
-   <ul class="barranav">
-      <li class="list1"><a class="active" href="index.html">Inicio</a></li>
-      <li class="list1"><a href="subirs.php">Subir Archivo</a></li>
+    <ul class="barranav">
+      <li class="list1"><a class="active" href="#home">Inicio</a></li>
+      <li class="list1"><a href="#news">Subir Archivo</a></li>
       <li class="list1" style="margin-left: 450px; border: none;"> <a> AYUDA A UN PONY </a> </li>
       <li class="list1" style="float: right"><img
           style="width: 70px; margin-top: 2px; margin-bottom: 4px; margin-right: 10px; margin-left: 10px;"
@@ -45,7 +43,7 @@
               <li><a href="#.html">Semestre3</a></li>
               <li><a href="#.html">Semestre4</a></li>
               <li><a href="#.html">Semestre5</a></li>
-              <li><a href="#.html">Semestre6</a></li>
+              <li><a href="ISC1.html">Semestre6</a></li>
               <li><a href="#.html">Semestre7</a></li>
               <li><a href="#.html">Semestre8</a></li>
               <li><a href="#.html">Semestre9</a></li>
@@ -106,25 +104,42 @@
         <li><a href="#">Feedback</a></li>
       </ul>
     </nav>
- 
-       <div class="content" style="top: 30%;">
-      <div style="margin-left:10%;padding:1px 16px;height:250px;">
-      <h2 style="margin-left: 36%;">ISC Semestre 6</h2>
-    <div style="margin-left:12%;padding:1px 0 px;height:100px;" class="container">
-        <ul class="materias">
-          <li><a href="LenguajesAutomatas.html">Lenguajes y Automatas I</a></li>
-          <li><a href="">Redes de Computadoras</a></li>
-          <li><a href="">Taller de Sistemas Operativos</a></li>
-          <li><a href="">Administración de Base de Datos</a></li>
-          <li><a href="">Programación Web</a></li>
-          <li><a href="">Ingeniería de Software</a></li>
-      </ul>
-    </div></div></div>
+    <div class="content">
+      <div class="header" style="width:100%; margin-left: 20%;">Ayuda a un pony con sus estudios</div>
+      <p style="width:100%; margin-left: 20%;">Y envianos tus libros, trabajos, examenes o guias de estudio!! <br>
+        Nosotros la publicaremos en esta pagina para que todos los ponys estudiemos.
+      </p>
+      <div style="margin-left: 40%; margin-top: 10%;">
+      <form action="subir.php" method="post" enctype="multipart/form-data">
+
+        <div class="mb-3">
+          <label for="formFileMultiple" class="form-label">Archivos a subir</label>
+          <input class="form-control" type="file" id="formFileMultiple" name="archivo" multiple>
+        </div>
+
+        <div class="form-floating mb-3">
+          <label for="floatingInput">Nombre</label>
+          <input type="text" class="form-control" id="Nombre Completo" name="nom" placeholder="Juan Perez">
+          
+        </div>
+
+        <div class="form-floating mb-3">
+          <label for="floatingInput">Carrera</label>
+          <input type="text" class="form-control" id="Carrera" name="carr" placeholder="Carrera del documento a subir">
+          
+        </div>
+        
+        <button type="submit" class="button1">
+          Enviar
+        </button>
 
 
+      </form>
+    </div>
+      
+      
+    </div>
+    
   </body>
-  
-  
 
 </html>
-
