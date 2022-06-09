@@ -93,7 +93,6 @@
   position: absolute;
   top: 60px;
   left: 45px;
-  height: 45px;
   width: 45px;
   text-align: center;
   background: #1b1b1b;
@@ -128,7 +127,7 @@
   color: white;
   font-size: 25px;
   font-weight: 600;
-  line-height: 65px;
+  line-height: 60px;
   text-align: center;
   background: #1e1e1e;
   letter-spacing: 1px;
@@ -147,7 +146,6 @@ nav ul li:last-child{
 }
 nav ul li a{
   position: relative;
-  z-index: 1;
   color: white;
   text-decoration: none;
   font-size: 18px;
@@ -211,31 +209,40 @@ nav ul li a span.rotate{
   transform: translateY(-50%) rotate(-180deg);
 }
 .content{
-  position: absolute;
-  top: 30%;
+  margin-top: 13%;
+
+  position: fixed;
+
+  top: 20%;
+
   left: 41%;
+
   transform: translate(-50%,-50%);
+
   color: #202020;
+
   text-align: center;
 }
 .content .header{
-  font-size: 45px;
+  font-size: 35px;
   font-weight: 600;
+  
 }
 .content p{
-  font-size: 30px;
+  font-size: 20px;
   font-weight: 500;
 }
 
 
 #wrapper {
-    padding-top: 50px;
-    padding-left: 100px;
+  position: absolute;
+    top: 15%;
+    left: 10%;
     display: grid;
     gap: 50px 20px;
     grid-template-columns: auto auto auto;
     list-style: none;
-
+    text-align: center;
 }
 
 #wrapper > div {
@@ -245,4 +252,9 @@ nav ul li a span.rotate{
     border: 2px solid black;
 } 
 
+
+.images{
+  position: absolute;
+  padding: 10px;
+}
 
