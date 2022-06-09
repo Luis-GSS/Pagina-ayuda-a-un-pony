@@ -7,7 +7,9 @@
   font-family: 'Poppins', sans-serif;
 }
 
-
+body {
+  background-color: lightgrey;
+}
 
 .barranav {
   list-style-type: none;
@@ -113,11 +115,13 @@
 }
 .sidebar{
   position: relative;
+  background-position: top;
   width: 250px;
   height: 100%;
   left: -250px;
   background: #1b1b1b;
   transition: left 0.4s ease;
+  z-index: 2;
     
 }
 .sidebar.show{
@@ -209,11 +213,8 @@ nav ul li a span.rotate{
   transform: translateY(-50%) rotate(-180deg);
 }
 .content{
-  margin-top: 13%;
 
   position: fixed;
-
-  top: 20%;
 
   left: 41%;
 
@@ -236,8 +237,6 @@ nav ul li a span.rotate{
 
 #wrapper {
   position: absolute;
-    top: 15%;
-    left: 10%;
     display: grid;
     gap: 50px 20px;
     grid-template-columns: auto auto auto;
@@ -251,10 +250,3 @@ nav ul li a span.rotate{
     width: 400px;
     border: 2px solid black;
 } 
-
-
-.images{
-  position: absolute;
-  padding: 10px;
-}
-
