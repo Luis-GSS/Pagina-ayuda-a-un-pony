@@ -19,7 +19,7 @@
   background-color: #1b1b1b;
   top: 0;
   width: 100%;
-    position: fixed;
+    position: absolute;
 }
 
 .list1 {
@@ -135,7 +135,7 @@
 }
 nav ul{
   background: #1b1b1b;
- 
+  z-index: 1;
   list-style: none;
 }
 nav ul li{
@@ -147,6 +147,7 @@ nav ul li:last-child{
 }
 nav ul li a{
   position: relative;
+  z-index: 1;
   color: white;
   text-decoration: none;
   font-size: 18px;
@@ -225,3 +226,23 @@ nav ul li a span.rotate{
   font-size: 30px;
   font-weight: 500;
 }
+
+
+#wrapper {
+    padding-top: 50px;
+    padding-left: 100px;
+    display: grid;
+    gap: 50px 20px;
+    grid-template-columns: auto auto auto;
+    list-style: none;
+
+}
+
+#wrapper > div {
+    background-color: white;
+    height: 300px;
+    width: 400px;
+    border: 2px solid black;
+} 
+
+
