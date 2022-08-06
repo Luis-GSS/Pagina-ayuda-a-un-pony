@@ -19,7 +19,10 @@
 				}
 				
 				if (move_uploaded_file($_FILES['archivo']['tmp_name'], $dir.$nombre.'.'.$extension)) {
-					echo "El archivo se cargó correctamente";
+					//$nuevaURL = "https://ayudaponystecnm.000webhostapp.com/subirs";
+					$nuevaURL = "subido";
+					header("Location: $nuevaURL.php");
+                    die();
 					} else {
 					echo "Error al cargar archivo";
 				}

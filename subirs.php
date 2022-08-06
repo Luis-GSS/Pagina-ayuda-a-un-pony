@@ -16,7 +16,7 @@
 
   <body>
     <ul class="barranav">
-      <li class="list1"><a class="active" href="#home">Inicio</a></li>
+      <li class="list1"><a class="active" href="index.html">Inicio</a></li>
       <li class="list1"><a href="#news">Subir Archivo</a></li>
       <li class="list1" style="margin-left: 450px; border: none;"> <a> AYUDA A UN PONY </a> </li>
       <li class="list1" style="float: right"><img
@@ -104,7 +104,7 @@
         <li><a href="#">Feedback</a></li>
       </ul>
     </nav>
-    <div class="content">
+    <div class="content" style="top:60%;">
       <div class="header" style="width:100%; margin-left: 20%;">Ayuda a un pony con sus estudios</div>
       <p style="width:100%; margin-left: 20%;">Y envianos tus libros, trabajos, examenes o guias de estudio!! <br>
         Nosotros la publicaremos en esta pagina para que todos los ponys estudiemos.

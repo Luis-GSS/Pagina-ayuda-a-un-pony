@@ -10,24 +10,19 @@
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"> </script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
   <script src="js/sidemenu.js" defer> </script>
-
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9706668769916125"
-     crossorigin="anonymous"></script>
-     
 </head>
 
 
 
   <body>
     <ul class="barranav">
-      <section class="flex-container">
       <li class="list1"><a class="active" href="index.html">Inicio</a></li>
-      <li class="list1"><a href="subirs.php">Subir Archivo</a></li>
-      <li class="list2"> <a> AYUDA A UN PONY </a> </li>
+      <li class="list1"><a href="#news">Subir Archivo</a></li>
+      <li class="list1" style="margin-left: 450px; border: none;"> <a> AYUDA A UN PONY </a> </li>
       <li class="list1" style="float: right"><img
-          style="width: 70px; margin-top: 2px; margin-bottom: 4px; margin-right: 10px; margin-left: 10px; margin-left: 120px;"
+          style="width: 70px; margin-top: 2px; margin-bottom: 4px; margin-right: 10px; margin-left: 10px;"
           src="images/Logo_Pony.png"></li>
-        </section>
+      
     </ul>
     <br><br>
 
@@ -109,24 +104,13 @@
         <li><a href="#">Feedback</a></li>
       </ul>
     </nav>
-    <div class="content">
-      <div class="header">Objetivo</div>
-      <br>
-      <p>
-        Nuestro principal objetivo es conseguir que esta plataforma sea considerada por nuestros compañeros como un espacio útil y una fuente inagotable de recursos, de manera que puedan acudir a la misma en busca de materiales de apoyo como lo son: exámenes, referencias bibliográficas, repositorio de apuntes y/o experiencias. 
-El hecho de tener internet como soporte físico añade a las posibilidades de presentación hipermedia de los materiales, su permanente disponibilidad y el constante aporte además de la renovación contenidos.</p>
-<br><br><br><br>
-<p style="text-align: center; font-size: 35px; font-weight: 600;">Acceso a</p>
-      <br>
-<div style="display: flex; justify-content: space-between;">
-  <p style="text-align: center; margin-left: 5cm;"><img src="Iconos/kisspng-computer-icons-homework-icon-design-clip-art-5aeb711334c4e2.2578966515253793472162.png" width="100" height="100"><br>Tareas</p> 
-
-       <p style="text-align: center; "><img src="Iconos/pngwing.com.png" width="100" height="100"><br>
-       Referencias Bibliográficas</p>
-
-       <p style="text-align: center; margin-right: 5cm;"><img src="Iconos/kisspng-computer-icons-checklist-icon-design-clip-art-5af2d622376064.1444355915258639702268.png" width="100" height="100"><br>Examenes</p> 
-</div>
-</div>
+    <div class="content" style="top:40%;">
+      <div class="header" style="width:100%; margin-left: 20%;">Gracias por ayudar a los ponys</div>
+      <p style="width:100%; margin-left: 20%;">Enviamos tu informacion a revision, si es aprovada la veras en unos dias en la pagina web
+      </p>
+      
+      
+    </div>
     
   </body>
 
