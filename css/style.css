@@ -70,6 +70,7 @@ body {
   text-align: center;
   border-radius: 3px;
   margin: auto;
+  overflow: hidden;
 }
 
 .container h2{
@@ -192,7 +193,7 @@ body {
   background: #1b1b1b;
   transition: left 0.4s ease;
   z-index: 2;
-    
+    overflow: hidden;
 }
 .sidebar.show{
   left: 0px;
